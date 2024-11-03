@@ -1,0 +1,27 @@
+# Ignora el archivo de configuración con credenciales sensibles
+config.conf
+
+# Ignora el entorno virtual y archivos relacionados
+contacts/
+contacts/*
+
+# Ignora archivos de notas o documentos temporales
+notes.txt
+
+# Ignora archivos de salida de datos generados
+seguidores.csv
+
+# Recomendaciones adicionales
+# Ignora archivos de sistema que podrían generarse
+.DS_Store
+Thumbs.db
+
+# Ignora carpetas y archivos de configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignora carpetas de IDEs y editores de texto
+.vscode/
+.idea/
+*.swp
